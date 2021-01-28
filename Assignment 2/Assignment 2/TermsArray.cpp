@@ -1,5 +1,7 @@
 #include "TermsArray.h"
 
+//The constructor of the class
+//Assigns the values to the terms.  
 TermsArray::TermsArray()
 {
 
@@ -18,10 +20,14 @@ TermsArray::TermsArray()
 
 }
 
+
+//The destructors for the class
 TermsArray::~TermsArray()
 {
 }
 
+
+//gets the currently selected term
 string TermsArray::getSelectedTerm(int &iPos)
 {
 
@@ -29,6 +35,7 @@ string TermsArray::getSelectedTerm(int &iPos)
 
 }
 
+//gets the size of the array to use in a for loop.
 int TermsArray::getArraySize()
 {
 	return sizeof(sTermsArray);
