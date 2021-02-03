@@ -1,26 +1,32 @@
+/*Assignment - 2
+*Date - 1/31/21
+*Name: Erin Cleaver, Sandra Khoury
+*Purpose - For user to a pick a word from a fixed set of words
+* Class Number: CIS227.6800.W21
+*/
+
 #pragma once
 #include <string>
 using namespace std;
 class TermsArray
 {
 private:
-	// Decleares an array of strings with the maxmin of 12 characters 
-	 string sTermsArray[12];
+
+	string sTermsArray[12];
 
 public:
 
-	//The constructor of the class
+	// constructors 
 	TermsArray();
-
-	//The destructors for the class
+	// Destructors
 	~TermsArray();
 
-	//gets the currently selected term
+	// Selects the current term
 	string getSelectedTerm(int&);
 
-	//gets the size of the array to use in a for loop.
+	// Gets the Size of the Array.  
 	int getArraySize();
 
-
 };
+
 
