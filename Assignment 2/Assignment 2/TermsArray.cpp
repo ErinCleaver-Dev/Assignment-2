@@ -32,6 +32,8 @@ TermsArray::~TermsArray()
 {
 }
 
+
+
 // Selects the current term
 string TermsArray::getSelectedTerm(int &iPos)
 {
